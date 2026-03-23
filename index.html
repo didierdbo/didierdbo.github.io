@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Didier Bonnet - Software Engineer & ML Enthusiast</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top Navigation -->
+    <nav class="top-nav">
+        <div class="nav-container">
+            <div class="nav-logo">DIDIER BONNET</div>
+            <div class="nav-links-desktop">
+                <a href="#about" class="nav-link active">JOURNEY</a>
+                <a href="#projects" class="nav-link">PROJECTS</a>
+                <a href="#contact" class="nav-link">CONTACT</a>
+            </div>
+            <a href="mailto:didier.dbo@gmail.com" class="contact-btn">CONTACT</a>
+        </div>
+    </nav>
+
+    <!-- Sidebar (Hidden on Mobile) -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <div class="sidebar-brand">STAFF ENG</div>
+        </div>
+        <div class="sidebar-nav">
+            <a href="#about" class="sidebar-link active">
+                <span class="icon">●</span>
+                <span>JOURNEY</span>
+            </a>
+            <a href="#projects" class="sidebar-link">
+                <span class="icon">○</span>
+                <span>PROJECTS</span>
+            </a>
+            <a href="#contact" class="sidebar-link">
+                <span class="icon">○</span>
+                <span>CONTACT</span>
+            </a>
+        </div>
+        <div class="sidebar-footer">
+            <div class="profile-card">
+                <div class="w-10 h-10 rounded-full bg-surface-container-highest overflow-hidden" style="width: 2.5rem; height: 2.5rem; border-radius: 50%; background: rgba(53, 53, 53, 0.5);"></div>
+                <div class="profile-info">
+                    <div class="profile-title">Didier Bonnet</div>
+                    <div class="profile-subtitle">Search & Ranking</div>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <header class="hero">
+            <div class="hero-content">
+                <span class="hero-label">SEARCH, RANKING & DISTRIBUTED SYSTEMS</span>
+                <h1 class="hero-title">25 Years Building<br>High-Performance<br>Platforms</h1>
+                <p class="hero-description">Staff Engineer specializing in search engines, ranking algorithms, and distributed systems architecture. From B2B platforms serving millions to ML-powered insights at scale.</p>
+            </div>
+        </header>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2019 — PRESENT</span>
+                        <h2>Staff Engineer & Backend Tech Lead</h2>
+                        <p>Architecting next-generation analytics and cloud platforms. Led Business Insights design (Spring Boot 3, partitioned PostgreSQL). Directed cloud migration to AWS using Strangler Pattern, managing zero-downtime transitions. Technical leadership across French and German teams, architecture reviews, and complex system debugging.</p>
+                        <div class="skills-tags">
+                            <span class="skill-tag">Java 21</span>
+                            <span class="skill-tag">Spring Boot 3</span>
+                            <span class="skill-tag">AWS ECS</span>
+                            <span class="skill-tag">Terraform</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2008 — 2018</span>
+                        <h2>Engineering Manager & Development Lead</h2>
+                        <p>Led teams of 5-8 engineers (backend/frontend) plus offshore teams. Principal architect of B2B Search Engine (62 Maven modules, hybrid Elasticsearch + Java ranking). Delivered Apache Mahout ML recommendation system (collaborative filtering, 2M businesses, zero-downtime deployment). Designed white-label Search-as-a-Service platform and custom MVC framework on Netty.</p>
+                        <div class="skills-tags">
+                            <span class="skill-tag">Elasticsearch</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Apache Mahout</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">Netty</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2004 — 2008</span>
+                        <h2>Lead Java / J2EE Developer</h2>
+                        <p>Built technical foundation of B2B search platform. Optimized real-time indexing and crawler response times. Worked on foundational architecture that required no rewrites over 20 years.</p>
+                        <div class="skills-tags">
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">J2EE</span>
+                            <span class="skill-tag">Real-time Systems</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2001 — 2004</span>
+                        <h2>Java Engineer @ Atos Worldline</h2>
+                        <p>Technical design for financial news platforms (lesechos.fr, bourse.lesechos.fr). Real-time stock market feed integration and financial syndication.</p>
+                        <div class="skills-tags">
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">Struts</span>
+                            <span class="skill-tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>B2B Search Engine</h3>
+                        <span class="project-year">2004-2023</span>
+                    </div>
+                    <p class="project-description">Principal architect of modular multi-tier search platform (62 Maven modules). Hybrid solution combining Elasticsearch with in-memory Java ranking engine. 9 search plugins, proprietary ranking with 16 zones. 628K pages/day crawled, 154ms response time, >80% cache hit rate. Maintained without rewrites for 20 years.</p>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <span class="stat-label">Scale</span>
+                            <span class="stat-value">3M Companies</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Performance</span>
+                            <span class="stat-value">154ms</span>
+                        </div>
+                    </div>
+                    <a href="#" class="project-link">READ MORE →</a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>ML Recommendation System</h3>
+                        <span class="project-year">2013-2018</span>
+                    </div>
+                    <p class="project-description">Apache Mahout collaborative filtering system trained on keyword choices of 2M businesses. Pearson correlation with 4 nearest neighbours. Weekly automated retraining with zero-downtime deployment (atomic MongoDB collection swap). Used for enriching listings and contextual search results.</p>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <span class="stat-label">Training Data</span>
+                            <span class="stat-value">2M Businesses</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Framework</span>
+                            <span class="stat-value">Apache Mahout</span>
+                        </div>
+                    </div>
+                    <a href="#" class="project-link">READ MORE →</a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Business Insights Platform</h3>
+                        <span class="project-year">2019-Present</span>
+                    </div>
+                    <p class="project-description">Group-level analytics platform (Java 21, Spring Boot 3, partitioned PostgreSQL). 4 Spring Batch pipelines, 9 parallel SQS consumers, percentile-based scoring. Multi-datasource architecture (RW + RO replica + external). Integrated Datadog APM and AWS infrastructure.</p>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <span class="stat-label">Stack</span>
+                            <span class="stat-value">Spring Boot 3</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Deployment</span>
+                            <span class="stat-value">AWS ECS</span>
+                        </div>
+                    </div>
+                    <a href="#" class="project-link">READ MORE →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="cta-content">
+                <h3>Ready for Architecture Leadership?</h3>
+                <p>I help organizations scale their technical culture and bridge the gap between business strategy and high-performance engineering. Let's discuss your infrastructure, search, or distributed systems challenges.</p>
+            </div>
+            <div class="cta-buttons">
+                <a href="mailto:didier.dbo@gmail.com" class="btn btn-primary">SCHEDULE CALL</a>
+                <a href="https://github.com/didierdbo/didierdbo" class="btn btn-secondary">VISIT GITHUB</a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="contact-content">
+                <h2>Get In Touch</h2>
+                <div class="contact-info-block">
+                    <p style="margin-bottom: 2rem; font-size: 1.1rem; color: var(--text-secondary); line-height: 1.8;">
+                        Staff Engineer specializing in search engines, ranking systems, and distributed architecture.<br>
+                        Based in Saint-Germain-en-Laye, France. Open to architecture consulting and leadership roles.
+                    </p>
+                </div>
+                <div class="contact-links">
+                    <a href="mailto:didier.dbo@gmail.com" class="contact-link">
+                        <span class="link-icon">✉</span>
+                        <span>didier.dbo@gmail.com</span>
+                    </a>
+                    <a href="tel:+33684490800" class="contact-link">
+                        <span class="link-icon">☎</span>
+                        <span>+33 6 84 49 08 00</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/didier-bonnet-b143271b/" class="contact-link">
+                        <span class="link-icon">in</span>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/didierdbo" class="contact-link">
+                        <span class="link-icon">⌘</span>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 DIDIER BONNET. STAFF ENGINEER. BUILT WITH HTML & CSS.</p>
+            <div class="footer-links">
+                <a href="https://github.com/didierdbo">GITHUB</a>
+                <a href="https://www.linkedin.com/in/didier-bonnet-b143271b/">LINKEDIN</a>
+                <a href="mailto:didier.dbo@gmail.com">EMAIL</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
